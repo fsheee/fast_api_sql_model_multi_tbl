@@ -3,8 +3,7 @@ from sqlmodel import SQLModel, create_engine, Session,select
 from models import Team,Hero,HeroCreate,HeroResponse,HeroUpdate,TeamCreate,TeamResponse,TeamUpdate,HeroResponsewithTeam
 from typing import List,Annotated
 
-# DB_URL="postgresql://fsheekhi:p2SAyY4ftHFv@ep-still-lake-a1tsjpws.ap-southeast-1.aws.neon.tech/apidb?sslmode=require"
-DB_URL="postgresql://fsheekhi:p2SAyY4ftHFv@ep-still-lake-a1tsjpws.ap-southeast-1.aws.neon.tech/api_db?sslmode=require"
+DB_URL="" # paste neon data base link
 engine=create_engine(DB_URL)
 
 def create_db_and_tables():
