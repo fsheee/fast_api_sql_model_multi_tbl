@@ -3,3 +3,5 @@
 https://sqlmodel.tiangolo.com/tutorial
 
 https://sqlmodel.tiangolo.com/tutorial/relationship-attributes/
+
+https://sqlmodel.tiangolo.com/tutorial/fastapi/
